@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI';
+    font-size: 25px;
+    background: #eeeeee;
+}
+
+header {
+	width:100%;
+}
+body h1{
+    background: red;
+    text-align: center;
+    margin:3%;
+}
+nav img{
+    margin:0% 3%;
+    float: left;
+}
+
+nav {
+    width:90%;
+	max-width:1000px;
+	margin:20px auto;
+    
+    
+}
+nav li {
+    border-right: 2px solid #ff0000;
+    float: left;
+    list-style: none outside none;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: auto;
+}
+
+nav ul li:last-child {
+    border-right:none;
+}
+nav li a {
+    color: #0008ff;
+    text-decoration: none;
+    
+}
+nav li a:hover {
+    color: #ff4d00;
+    text-decoration: none;
+}
+.agend:hover{
+    background: #002aff;
+    color: #ffffff;
+
+}
+article{
+    margin: 3%;
+    text-align: justify;
+    color: rgb(48, 115, 115);
+}
+
+section img{
+    max-width: 100%;
+    height: auto;
+    float: left;
+}
+.geri{
+    border-radius: 150px;
+    -webkit-border-radius: 150px;
+    -moz-border-radius: 150px;
+    -ms-border-radius: 150px;
+    -o-border-radius: 150px;
+}
+
+footer{
+    background: #ffffff;
+    
+   
+}
+
+
+.footer31{
+    margin: 3%;
+    float: right;
+    background: #0008ff;
+    height: 40px;
+    width: 200px;
+    color: black;
+    border-radius: 50px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    text-decoration: none;
+    margin-top: -3.5%;
+}
+.footer1{
+    margin:0% 3%;
+}
+.footer2{
+   text-align: center;
+   margin-top: -5%;
+}
+.fa:hover{
+    -ms-transform: scale(1.1); 
+    -webkit-transform: scale(1.1); 
+    transform: scale(1.1); 
+    opacity: .9;
+    
+}
+.ins:hover{
+    -ms-transform: scale(1.1); 
+    -webkit-transform: scale(1.1); 
+    transform: scale(1.1); 
+    opacity: .9;
+    
+}
+.you:hover{
+    -ms-transform: scale(1.1); 
+    -webkit-transform: scale(1.1); 
+    transform: scale(1.1); 
+    opacity: .9;
+    
+}
+.footer31 h4{
+    margin: 3%;
+}
+.footer31:hover{
+    background: #ff0000;
+    box-shadow: 10px 20px 50px rgb(0, 234, 255);
+    -ms-transform: scale(1.1); 
+    -webkit-transform: scale(1.1); 
+    transform: scale(1.1); 
+    opacity: .9;
+}

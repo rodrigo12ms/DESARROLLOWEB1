@@ -1,0 +1,74 @@
+body{
+    color: rgb(29, 4, 88);
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+    background: rgb(226, 229, 231);
+   
+
+}
+section{
+    background-color: rgb(16, 114, 121);
+    height: 10px;
+
+}
+.kk{
+    margin-bottom: 600px;
+}
+section .tt{
+    background-color: aliceblue;
+    height: 15px;
+ }
+ footer{
+    margin-top: 15px;
+ }
+
+header{
+    background: rgb(139, 206, 236);
+    text-align: center;
+
+}
+
+#caja1{
+    margin : 25px 550px;
+    width: 250px;
+    height: 350px;
+    background: #0f3752;
+    box-shadow: 10px 20px 50px rgb(0, 105, 82);
+    /* eje x , eje y , efecto blur, color*/
+    z-index: 9;
+    position: relative;
+}
+/* pseudoclase*/
+#caja1:hover{
+    box-shadow: 10px 20px 50px rgb(255, 0, 0);
+    background: rgb(170, 43, 71);
+
+}
+/*pseudo-elementos*/
+#caja1::before{
+    color: rgb(17, 17, 14);
+    content: "Antes de ";
+    text-align: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 70%;
+    background: blanchedalmond;
+    z-index: -1;
+
+}
+#caja1::after{
+    color: rgb(19, 15, 15);
+    content: "Despues ";
+    text-align: center;
+    position: absolute;
+    top: 70%;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: blanchedalmond;
+    z-index: -1;
+
+}

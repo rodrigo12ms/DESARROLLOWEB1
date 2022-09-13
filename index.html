@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ingreso de Usuarios</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <section class="left-section">
+        <div id="left-cover" class="cover cover-hide">
+            <img src="img/cover.png" alt="">
+            <h1>Bienvenido !</h1>
+            <h3>Si ya tiene una cuenta presione login ?</h3>
+            <button type="button" class="switch-btn" onclick="location.reload()">Login</button>
+        </div>
+        <div id="left-form" class="form fade-in-element">
+            
+            
+            <form action="login.php" method="post">
+                <center><a href="indexp.php"> <img src="img/logo.png" alt="" width="150" height="70"  ></a>
+                </center>
+                <input type="text" name="user-name" class="input-box" placeholder="Usuario" required>
+                <input type="password" name="user-pass" class="input-box" placeholder="Contraseña" required>
+                <input type="submit" name="login-btn" class="btn" value="Ingresar">
+            </form>                 
+        </div>
+        
+    </section>
+
+    <section class="right-section">
+        <div id="right-cover" class="cover fade-in-element">
+            <img src="img/cover.png" alt="">
+            <h1>A TU SERVICIO CLINICA PRAES !</h1>
+            <h3>No tienes una cuenta ?</h3>
+            <button type="button" class="switch-btn" onclick="switchSignup()">LOGIN</button>
+        </div>
+        <div id="right-form" class="form form-hide">
+            <h1>Registro de Usuario</h1>
+            <form action="signup.php" method="post">
+                <input type="text" name="user-name" class="input-box" placeholder="Usuario">
+                <input type="email" name="user-email" class="input-box" placeholder="Correo">
+                <input type="password" name="user-pass" class="input-box" placeholder="Contraseña">
+                <input type="submit" name="signup-btn" class="btn" value="Loguearse">
+            </form>
+        </div>
+    </section>
+
+    <script src="js/main.js"></script>
+
+</body>
+</html>
